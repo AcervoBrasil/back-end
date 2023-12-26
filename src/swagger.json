@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Acervo Brasil API",
+    "description": "",
+    "contact": {
+      "name": "Developer Site",
+      "url": "http://www.test.com/"
+    },
+    "version": "1.0"
+  },
+  "servers": [
+    { "url": "http://localhost:3333/", "description": "Api Teste LocalHost" }
+  ],
+  "securitySchemes": {
+    "bearerAuth": {
+      "type": "http",
+      "scheme": "bearer",
+      "bearerFormat": "JWT"
+    }
+  }
+}
